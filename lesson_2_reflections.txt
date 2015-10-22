@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+To set the initial state of any files associated with a project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a buffer of unsaved changes to the repository.  It can be either committed or cancelled.
