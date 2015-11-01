@@ -14,3 +14,11 @@ Can always go back. And keeping commits to a manageable size reduces risk of rew
 
 Now that you have your workspace set up, what do you want to try using Git for?
 To see changes to files and test that the asterisk appears when changes need to be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If two people are working on the same program, they could work in separate branches.
+Multiple levels of a game could each have a separate branch.
+Free and paid versions, etc.
+
+How do the diagrams help you visualize the branch structure?
+Better than a list of commit ids, i.e. more graphical.

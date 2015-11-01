@@ -3,3 +3,14 @@ To set the initial state of any files associated with a project.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a buffer of unsaved changes to the repository.  It can be either committed or cancelled.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Always commit soon after adding a file to the staging area.
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Added and subtracted lines are reconciled wtih previous commits.  A merge is the coming together of two or more branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git tries to to the merge based on simple rules.  If it cannot do the merge is asks for help. This is much better than having more complex rules and still having an unresolvable conflict now and then because then it would be much more difficult to figure out what rule was broken. Git would also cost more.
